@@ -1,0 +1,10 @@
+- React.StrictMode can be used while rendering react elements this can help developer from unexpected error or maintain the lifecycle.....
+- flex-wrap => skill section
+- rafce+enter will automatically provide you a basic react component template
+- router-react-dom => for routes declaration 
+- useRouteError -> hook given by react router dom to show detailed error msg
+- we want the header to be always present at the top irrespective to the route, for that we have to create children routes
+- outlet is provided by router-react-dom, outlet will be replaced by the child component in the actual component
+- You will pass component needed to be rendered as per the routes, you will mention outlet in the main component. So that outlet will be replaced by the child component when the actual route is triggered
+- Never use a anchor tag to do routing
+- Link is a super powerful tag given by router-react-dom. Instead of anchor tag we will use Link tags. These does not load the whole page IMP
