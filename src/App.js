@@ -6,8 +6,8 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Project from "./components/Project";
 import Error from "./components/Error";
 import ContactMe from "./components/ContactMe";
-import { div } from "three/src/nodes/TSL.js";
 import ThankYou from "./components/ThankYou";
+import Background from "./components/Background";
 
 const App = () => {
   return (
@@ -33,6 +33,8 @@ const appRouter = createBrowserRouter([
           <div>
             <Project />
             <ContactMe />
+            <ThankYou />
+            <Background />
           </div>
         ), // Render both Project and ContactMe components
       },
@@ -42,6 +44,7 @@ const appRouter = createBrowserRouter([
           <div>
             <ContactMe />
             <ThankYou />
+            <Background />
           </div>
         ),
       },

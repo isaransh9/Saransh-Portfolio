@@ -6,7 +6,7 @@ import ThankYou from "./ThankYou";
 
 const Body = () => {
   return (
-    <div className="Body-main">
+    <div>
       <Introduction />
       <Education />
       <Project />
